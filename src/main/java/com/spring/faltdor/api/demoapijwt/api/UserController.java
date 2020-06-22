@@ -1,6 +1,7 @@
-package com.spring.faltdor.api.demoapijwt.repository;
+package com.spring.faltdor.api.demoapijwt.api;
 
 import com.spring.faltdor.api.demoapijwt.data.ApplicationUser;
+import com.spring.faltdor.api.demoapijwt.repository.ApplicationUserRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
